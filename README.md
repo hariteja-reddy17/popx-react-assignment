@@ -1,16 +1,79 @@
-# React + Vite
+# PopX React Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A pixel-perfect React JS implementation of the PopX mobile application UI based on the provided Adobe XD design.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Welcome Screen
+- Login Screen
+- Registration Screen
+- Account Settings Screen
+- React Router navigation
+- Responsive mobile-centered layout
+- Clean and reusable React components
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React JS
+- Vite
+- React Router DOM
+- CSS3
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_GITHUB_USERNAME/popx-react-assignment.git
+```
+
+Go to the project folder:
+
+```bash
+cd popx-react-assignment
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```
+src
+├── components
+├── pages
+├── styles
+├── App.jsx
+└── main.jsx
+```
+
+## Live Demo
+
+Add your Vercel URL here after deployment.
+
+Example:
+
+https://your-project.vercel.app
+
+## GitHub Repository
+
+https://github.com/YOUR_GITHUB_USERNAME/popx-react-assignment
+
+---
+
+Developed by **Hari Nagapur**
