@@ -1,0 +1,44 @@
+.register-page {
+  position: relative;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.register-title {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #1d2226;
+  margin-bottom: 28px;
+}
+
+.register-radio-title {
+  font-size: 14px;
+  color: #1d2226;
+  margin-bottom: 10px;
+}
+
+.register-radio {
+  display: flex;
+  gap: 26px;
+  margin-bottom: 28px;
+}
+
+.register-radio label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #1d2226;
+}
+
+.register-radio input[type="radio"] {
+  accent-color: #6c25ff;
+}
+
+.register-button {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 30px;
+}
